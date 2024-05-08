@@ -1,0 +1,18 @@
+20230624	08:34:31	02e64904-e3b5-409e-9b79-64094c60ef06	MongoServerError: user is not allowed to do action [find] on [test.users]	POST	/users	undefined
+20230624	08:36:53	db091a56-8c94-4493-824c-892f996f9bbb	MongoServerError: user is not allowed to do action [find] on [test.users]	POST	/users	undefined
+20230624	08:43:19	4b1406c9-5c66-41f8-9828-eb714223dc84	MongoServerError: user is not allowed to do action [find] on [test.users]	POST	/users	undefined
+20230624	08:49:29	e4677425-8235-4b0a-96b8-0f0d6162009d	MongoServerError: user is not allowed to do action [find] on [test.users]	POST	/users	undefined
+20230629	15:37:56	70b76c97-052f-47e7-abc3-c8b951a2749b	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "Dave" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
+20230629	15:38:08	7e790b8d-85f9-4c75-a3a6-6399a4891f08	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "Davie" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
+20230629	15:38:51	2501d942-f29d-4fe4-b117-09b9cf51629b	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "Dave" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
+20230629	15:39:34	b5feddc8-b467-411e-a955-e7838eeb9c97	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "Dave" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
+20230629	15:43:01	e73f37fd-1c65-48f3-a034-bbbf3ef886c3	MongoServerSelectionError: getaddrinfo ENOTFOUND ac-xhodppn-shard-00-01.lhb3to2.mongodb.net	POST	/users	undefined
+20230629	15:43:37	f8307e23-bb0c-43fe-a5cc-e6984481c2e4	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "Dave" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
+20230629	15:43:48	77725e86-1dba-48d0-bc19-ba8956d27968	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "Dave" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
+20230629	15:44:01	990e77f8-c4af-47a7-96ce-f2ddb77c11dc	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "Hank" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
+20230629	15:45:22	c49483e9-4049-40e8-86c3-7bc8bd4f0222	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "Hank" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
+20230629	15:46:23	feb6eebd-3acd-4004-932e-cbdc03346699	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "Hank" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
+20230629	15:46:44	3a215412-ae2f-4396-b8e7-cf06817bb67b	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "Hank" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
+20230629	15:47:20	181a6b7b-ffc6-4926-a5fe-8a6ddae1a345	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "Hank" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
+20230629	15:48:06	b64fc83b-a341-4ecc-afe9-dc6ad1ca0624	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "Hank" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
+20240408	11:52:11	c19d7f8d-aa75-4a3b-a86d-e49d23af20ab	SyntaxError: Unexpected token } in JSON at position 96	POST	/users	undefined

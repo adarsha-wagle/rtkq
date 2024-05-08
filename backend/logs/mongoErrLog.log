@@ -1,0 +1,3 @@
+20240408	10:45:47	dc7bf446-dfcb-4f86-839c-e6d05ef954f6	undefined: ENOTFOUND	querySrv	_mongodb._tcp.davegray.lhb3to2.mongodb.net
+20240408	11:04:51	ae5fb833-c7ab-44d6-b684-53ab5968249a	undefined: ETIMEOUT	queryTxt	davegray.lhb3to2.mongodb.net
+20240408	11:07:14	ac0efbde-f0ea-48d7-89f9-d56a34b1ba1f	undefined: ETIMEOUT	queryTxt	davegray.lhb3to2.mongodb.net
