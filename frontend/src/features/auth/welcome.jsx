@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-function Welcome() {
+
+const Welcome = () => {
   const date = new Date();
   const today = new Intl.DateTimeFormat("en-US", {
     dateStyle: "full",
@@ -17,12 +18,19 @@ function Welcome() {
       </p>
 
       <p>
+        <Link to="/dash/notes/new">Add New techNote</Link>
+      </p>
+
+      <p>
         <Link to="/dash/users">View User Settings</Link>
+      </p>
+
+      <p>
+        <Link to="/dash/users/new">Add New User</Link>
       </p>
     </section>
   );
 
   return content;
-}
-
+};
 export default Welcome;

@@ -12,7 +12,7 @@ const NewNoteForm = ({ users }) => {
 
   const [title, setTitle] = useState("");
   const [text, setText] = useState("");
-  const [userId, setUserId] = useState(users[0].id);
+  const [userId, setUserId] = useState(users[0]?.id);
 
   useEffect(() => {
     if (isSuccess) {
@@ -31,8 +31,13 @@ const NewNoteForm = ({ users }) => {
 
   const onSaveNoteClicked = async (e) => {
     e.preventDefault();
-    if (canSave) {
-      await addNewNote({ user: userId, title, text });
+    try {
+      if (canSave) {
+        console.log("user", userId, title, text);
+        await addNewNote({ user: userId, title, text });
+      }
+    } catch (er) {
+      console.log(er);
     }
   };
 

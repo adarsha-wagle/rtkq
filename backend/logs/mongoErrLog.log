@@ -1,3 +1,6 @@
 20240408	10:45:47	dc7bf446-dfcb-4f86-839c-e6d05ef954f6	undefined: ENOTFOUND	querySrv	_mongodb._tcp.davegray.lhb3to2.mongodb.net
 20240408	11:04:51	ae5fb833-c7ab-44d6-b684-53ab5968249a	undefined: ETIMEOUT	queryTxt	davegray.lhb3to2.mongodb.net
 20240408	11:07:14	ac0efbde-f0ea-48d7-89f9-d56a34b1ba1f	undefined: ETIMEOUT	queryTxt	davegray.lhb3to2.mongodb.net
+20240509	00:40:03	08783b8e-2c5a-400b-820b-967d38e736ad	undefined: ETIMEOUT	queryTxt	davegray.lhb3to2.mongodb.net
+20240509	17:01:54	2d6fb6b0-77dc-4eab-81c7-ec9956375365	undefined: ETIMEOUT	queryTxt	davegray.lhb3to2.mongodb.net
+20240509	17:06:15	bca4d47c-825c-4985-b81d-8d1e27b490b9	undefined: ETIMEOUT	queryTxt	davegray.lhb3to2.mongodb.net
