@@ -16,3 +16,8 @@
 20230629	15:47:20	181a6b7b-ffc6-4926-a5fe-8a6ddae1a345	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "Hank" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
 20230629	15:48:06	b64fc83b-a341-4ecc-afe9-dc6ad1ca0624	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "Hank" (type string) at path "user" because of "BSONError"	POST	/notes	undefined
 20240408	11:52:11	c19d7f8d-aa75-4a3b-a86d-e49d23af20ab	SyntaxError: Unexpected token } in JSON at position 96	POST	/users	undefined
+20240509	19:41:55	0bd24b29-64c4-40c1-ad65-85175a6a6437	MongoServerSelectionError: getaddrinfo ENOTFOUND ac-xhodppn-shard-00-00.lhb3to2.mongodb.net	POST	/auth	http://localhost:3000
+20240509	19:42:29	30dc3492-3264-49fa-87bc-72ac1852eeeb	MongoServerSelectionError: getaddrinfo ENOTFOUND ac-xhodppn-shard-00-00.lhb3to2.mongodb.net	POST	/auth	http://localhost:3000
+20240509	19:43:05	04dca354-a6b7-4eae-b40d-ab8e89c0a2c3	MongoServerSelectionError: getaddrinfo ENOTFOUND ac-xhodppn-shard-00-00.lhb3to2.mongodb.net	POST	/auth	http://localhost:3000
+20240509	19:44:28	515855f1-7aec-465c-9862-e95d87faf2b2	MongoServerSelectionError: getaddrinfo ENOTFOUND ac-xhodppn-shard-00-00.lhb3to2.mongodb.net	POST	/auth	undefined
+20240509	19:44:43	3a1782d7-e2b7-4e5b-a4ab-58045cdfd6c4	MongoServerSelectionError: getaddrinfo ENOTFOUND ac-xhodppn-shard-00-00.lhb3to2.mongodb.net	POST	/auth	undefined

@@ -4,3 +4,8 @@
 20240509	00:40:03	08783b8e-2c5a-400b-820b-967d38e736ad	undefined: ETIMEOUT	queryTxt	davegray.lhb3to2.mongodb.net
 20240509	17:01:54	2d6fb6b0-77dc-4eab-81c7-ec9956375365	undefined: ETIMEOUT	queryTxt	davegray.lhb3to2.mongodb.net
 20240509	17:06:15	bca4d47c-825c-4985-b81d-8d1e27b490b9	undefined: ETIMEOUT	queryTxt	davegray.lhb3to2.mongodb.net
+20240509	19:44:52	e5ed1f64-9d0d-4817-8d7e-fc5e4e541f5c	undefined: ETIMEOUT	querySrv	_mongodb._tcp.davegray.lhb3to2.mongodb.net
+20240509	19:45:00	91e4c9ef-04de-4b39-bbaa-eafbe23e59c6	undefined: ETIMEOUT	querySrv	_mongodb._tcp.davegray.lhb3to2.mongodb.net
+20240509	19:45:22	2dd540b7-7472-4558-80af-27d95aa11915	undefined: ETIMEOUT	querySrv	_mongodb._tcp.davegray.lhb3to2.mongodb.net
+20240510	06:22:48	96e4c86e-82ad-4eae-a599-296da5e94f1d	undefined: ETIMEOUT	queryTxt	davegray.lhb3to2.mongodb.net
+20240510	06:28:25	6da47e18-0c68-4e5d-98d3-686d9bcd3954	undefined: ETIMEOUT	queryTxt	davegray.lhb3to2.mongodb.net

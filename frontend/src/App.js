@@ -21,24 +21,29 @@ import NewUserForm from "./features/users/new_user_form";
 import EditNote from "./features/notes/edit_note";
 import NewNote from "./features/notes/new_note";
 import PreFetch from "./features/auth/pre_fetch";
+
+import PersistLogin from "./features/auth/PersistLogin";
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Public />} />
       <Route path="login" element={<Login />} />
-      <Route element={<PreFetch />}>
-        {/* START DASH LAYOUT*/}
-        <Route path="dash" element={<DashLayout />}>
-          <Route index element={<Welcome />} />
-          <Route path="users">
-            <Route index element={<UsersList />} />
-            <Route path=":id" element={<EditUser />} />
-            <Route path="new" element={<NewUserForm />} />
-          </Route>
-          <Route path="notes">
-            <Route index element={<NotesList />} />
-            <Route path=":id" element={<EditNote />} />
-            <Route path="new" element={<NewNote />} />
+      <Route element={<PersistLogin />}>
+        <Route element={<PreFetch />}>
+          {/* START DASH LAYOUT*/}
+          <Route path="dash" element={<DashLayout />}>
+            <Route index element={<Welcome />} />
+            <Route path="users">
+              <Route index element={<UsersList />} />
+              <Route path=":id" element={<EditUser />} />
+              <Route path="new" element={<NewUserForm />} />
+            </Route>
+            <Route path="notes">
+              <Route index element={<NotesList />} />
+              <Route path=":id" element={<EditNote />} />
+              <Route path="new" element={<NewNote />} />
+            </Route>
           </Route>
         </Route>
         {/* END DASH */}

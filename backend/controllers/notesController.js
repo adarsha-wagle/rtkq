@@ -40,19 +40,20 @@ const createNewNote = asyncHandler(async (req, res) => {
 
   // Check for duplicate title
   const duplicate = await Note.findOne({ title }).lean().exec();
-  console.log("hello", req.body);
+  console.log("note body", req.body);
   console.log(duplicate);
   if (duplicate) {
     return res.status(409).json({ message: "Duplicate note title" });
   }
 
   // Create and store the new user
-  const note = await Note.create({ user, title, text });
-  console.log("hello", note);
+  const note = await Note.create({ user, title, text, completed: false });
+  console.log("note created", note);
   if (note) {
     // Created
     return res.status(201).json({ message: "New note created" });
   } else {
+    console.log("invalid note data received");
     return res.status(400).json({ message: "Invalid note data received" });
   }
 });
